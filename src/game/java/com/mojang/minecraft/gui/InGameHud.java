@@ -80,7 +80,7 @@ public final class InGameHud {
 			GL11.glPopMatrix();
 		}
 
-		var1.drawShadow("0.0.19a_06", 2, 2, 16777215);
+		var1.drawShadow("0.0.19a_04", 2, 2, 16777215);
 		var1.drawShadow(this.minecraft.fpsString, 2, 12, 16777215);
 		byte var14 = 10;
 		boolean var15 = false;
