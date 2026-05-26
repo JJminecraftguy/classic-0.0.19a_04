@@ -186,7 +186,7 @@ public final class Minecraft implements Runnable {
 				this.height = Display.getHeight();
 			}
 
-			Display.setTitle("Minecraft 0.0.19a_06");
+			Display.setTitle("Minecraft 0.0.19a_04");
 
 			Display.create();
 			Keyboard.create();
@@ -358,6 +358,7 @@ public final class Minecraft implements Runnable {
 								var46 = var44 - Mouse.getY() * var44 / this.height - 1;
 								this.screen.render(var47, var46);
 							}
+							Display.sync(100)
 							Display.update();
 						}
 
